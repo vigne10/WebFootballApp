@@ -1,8 +1,11 @@
 # WebFootballApp
 
-### School exercise (website). Developed in 2023
+### School exercise (website). Developed in 2023.
 
-#### Visitors
+\
+\
+
+#### Visitors :
 
 ![Screenshot 1](https://github.com/vigne10/WebFootballApp/blob/main/screenshots/guest/screenshot-1.png "Screenshot Title Text 1")
 
@@ -20,7 +23,12 @@
 
 ![Screenshot 8](https://github.com/vigne10/WebFootballApp/blob/main/screenshots/guest/screenshot-8.png "Screenshot Title Text 8")
 
-#### Admin
+\
+\
+\
+\
+
+#### Admin :
 
 ![Screenshot 9](https://github.com/vigne10/WebFootballApp/blob/main/screenshots/admin/screenshot-9.png "Screenshot Title Text 9")
 
