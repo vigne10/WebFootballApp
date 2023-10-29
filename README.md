@@ -2,7 +2,7 @@
 
 ### School exercise (website). Developed in 2023.
 
-\\
+<br>
 
 #### Visitors :
 
@@ -22,7 +22,9 @@
 
 ![Screenshot 8](https://github.com/vigne10/WebFootballApp/blob/main/screenshots/guest/screenshot-8.png "Screenshot Title Text 8")
 
-\\
+<br>
+<br>
+<br>
 
 #### Admin :
 
