@@ -1,0 +1,91 @@
+.admin-competitions-content-container {
+  flex: 1;
+  padding: 50px;
+  padding-top: 30px;
+  margin-left: 290px;
+  overflow: auto;
+}
+
+.admin-competitions-top-container {
+  display: flex;
+}
+
+#admin-competitions-title-container {
+  width: 30%;
+}
+
+#admin-competitions-add-button-container {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  justify-content: end;
+}
+
+#admin-competitions-add-button:hover {
+  background-color: #c70000;
+}
+
+#admin-competitions-add-button {
+  background-color: #f00000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.competitions-list {
+  list-style: none;
+  padding: 0;
+}
+
+.competition-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.competition-info {
+  display: flex;
+  align-items: center;
+}
+
+.competition-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  margin-left: 20px;
+}
+
+.competition-name-without-logo {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  margin-left: 60px;
+}
+
+.competition-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.competition-actions button {
+  background-color: #b6b6b6;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.competition-actions button:hover {
+  background-color: #f00000;
+}

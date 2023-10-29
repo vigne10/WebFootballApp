@@ -1,0 +1,75 @@
+.competition-season-add-content-container {
+  padding: 50px;
+  margin-left: 290px;
+}
+
+.competition-season-add-form-container {
+  width: 600px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.competition-season-add-form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.competition-season-add-form-container form input,
+.competition-season-add-form-container form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 14px;
+  height: 42px;
+}
+
+.competition-season-add-form-container form input:focus,
+.competition-season-add-form-container form select:focus {
+  border-color: #f6bf00;
+}
+
+.competition-season-add-form-container form button {
+  background-color: #f00000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  display: block;
+  margin: auto;
+}
+
+.competition-season-add-form-container form button:disabled {
+  cursor: default;
+  opacity: 0.7;
+}
+
+.competition-season-add-form-container form button:not([disabled]):hover {
+  background-color: #c70000;
+}
+
+.competition-season-add-form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.competition-season-add-form-container
+  form
+  .competition-season-add-buttons-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}

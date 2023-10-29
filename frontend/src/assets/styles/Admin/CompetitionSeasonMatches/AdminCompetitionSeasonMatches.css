@@ -1,0 +1,165 @@
+.admin-competition-season-matches-content-container {
+  flex: 1;
+  padding: 50px;
+  padding-top: 30px;
+  margin-left: 290px;
+  overflow: auto;
+}
+
+.admin-competition-season-matches-top-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#admin-competition-season-matches-title-container {
+  display: flex;
+  align-items: center;
+}
+
+#admin-competition-season-matches-add-button-container {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  justify-content: end;
+}
+
+#admin-competition-season-matches-add-button:hover {
+  background-color: #c70000;
+}
+
+#admin-competition-season-matches-add-button {
+  background-color: #f00000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.competition-season-matches-list {
+  list-style: none;
+  padding: 0;
+}
+
+.competition-season-match-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.competition-season-match-block {
+  margin-left: 15px;
+}
+
+.competition-season-match-teams-info {
+  display: flex;
+  align-items: center;
+}
+
+.competition-season-home-team-info {
+  display: flex;
+  align-items: center;
+}
+
+.competition-season-home-team-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.competition-season-home-team-name-without-logo {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  margin-left: 60px;
+}
+
+.competition-season-home-team-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.competition-season-away-team-info {
+  display: flex;
+  align-items: center;
+}
+
+.competition-season-away-team-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
+.competition-season-away-team-name-without-logo {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  margin-left: 60px;
+}
+
+.competition-season-away-team-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.competition-season-match-teams-separator {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+}
+
+.competition-season-match-teams-separator-without-scores {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.competition-season-match-schedule {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: #666;
+}
+
+.competition-season-match-actions button {
+  background-color: #b6b6b6;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.competition-season-match-actions button:hover {
+  background-color: #f00000;
+}
+
+.admin-competition-season-matches-competition-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.competition-season-match-home-score,
+.competition-season-match-away-score {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  margin-left: 10px;
+  margin-right: 10px;
+}

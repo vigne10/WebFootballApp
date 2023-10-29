@@ -1,0 +1,81 @@
+.admin-players-content-container {
+  flex: 1;
+  padding: 50px;
+  padding-top: 30px;
+  margin-left: 290px;
+  overflow: auto;
+}
+
+.admin-players-top-container {
+  display: flex;
+}
+
+#admin-players-title-container {
+  width: 30%;
+}
+
+#admin-players-add-button-container {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  justify-content: end;
+}
+
+#admin-players-add-button:hover {
+  background-color: #c70000;
+}
+
+#admin-players-add-button {
+  background-color: #f00000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.player-list {
+  list-style: none;
+  padding: 0;
+}
+
+.player-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.player-info {
+  flex: 1;
+}
+
+.player-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+}
+
+.player-position {
+  color: #7e7e7e;
+}
+
+.player-actions button {
+  background-color: #b6b6b6;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.player-actions button:hover {
+  background-color: #f00000;
+}

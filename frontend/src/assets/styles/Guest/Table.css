@@ -1,0 +1,47 @@
+.ranking-table {
+  width: 80%; /* Adjust the width of the table */
+  margin: 70px auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Optional: Style for odd rows */
+.ranking-table tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/* Optional: Style for even lines */
+.ranking-table tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.ranking-table th,
+.ranking-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.ranking-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #666;
+}
+
+.ranking-table td {
+  color: #666;
+  text-align: center;
+}
+
+.ranking-table-team-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.ranking-table-team-info {
+  display: flex;
+  align-items: center;
+}

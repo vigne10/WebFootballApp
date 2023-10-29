@@ -1,0 +1,86 @@
+.admin-competition-seasons-content-container {
+  flex: 1;
+  padding: 50px;
+  padding-top: 30px;
+  margin-left: 290px;
+  overflow: auto;
+}
+
+.admin-competition-seasons-top-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#admin-competition-seasons-title-container {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+#admin-competition-seasons-add-button-container {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  justify-content: end;
+}
+
+#admin-competition-seasons-add-button:hover {
+  background-color: #c70000;
+}
+
+#admin-competition-seasons-add-button {
+  background-color: #f00000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.competition-seasons-list {
+  list-style: none;
+  padding: 0;
+}
+
+.competition-season-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.competition-season-info {
+  flex: 1;
+}
+
+.competition-season-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+}
+
+.competition-season-actions button {
+  background-color: #b6b6b6;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.competition-season-actions button:hover {
+  background-color: #f00000;
+}
+
+.admin-competition-seasons-competition-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}

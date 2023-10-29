@@ -1,0 +1,79 @@
+.admin-history-content-container {
+  flex: 1;
+  padding: 50px;
+  padding-top: 30px;
+  margin-left: 290px;
+  overflow: auto;
+}
+
+.admin-history-top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#admin-history-title-container {
+  width: 30%;
+}
+
+.admin-history-buttons-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+#admin-history-edit-button,
+#admin-history-delete-button,
+#admin-history-cancel-button {
+  background-color: #f00000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#admin-history-edit-button:hover,
+#admin-history-delete-button:hover,
+#admin-history-cancel-button:hover {
+  background-color: #c70000;
+}
+
+.admin-history-content-container {
+  padding: 50px;
+  margin-left: 290px;
+}
+
+.admin-history-form-container {
+  width: 1200px;
+  height: 600px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.admin-history-form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+#admin-history-content-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 14px;
+  resize: none;
+  height: 100%;
+}

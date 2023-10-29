@@ -1,0 +1,59 @@
+.trophies-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.trophies-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: rgb(83, 83, 83);
+  text-align: center;
+}
+
+.trophies-table {
+  width: 80%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 80px 0px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.trophies-table th,
+.trophies-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  vertical-align: middle;
+}
+
+.trophies-table th,
+.trophies-table td {
+  background-color: #f2f2f2;
+  color: #333;
+  text-align: center;
+}
+
+.trophies-table td {
+  background-color: white;
+}
+
+.trophies-table-competition-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.competition-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+/* For medium sized screens */
+@media screen and (max-width: 768px) {
+  .trophies-table {
+    width: 100%;
+  }
+}
