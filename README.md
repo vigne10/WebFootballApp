@@ -4,7 +4,7 @@
 
 <br>
 
-#### Visitors :
+### Visitors :
 
 ![Screenshot 1](https://github.com/vigne10/WebFootballApp/blob/main/screenshots/guest/screenshot-1.png "Screenshot Title Text 1")
 
@@ -26,7 +26,7 @@
 <br>
 <br>
 
-#### Admin :
+### Admin :
 
 ![Screenshot 9](https://github.com/vigne10/WebFootballApp/blob/main/screenshots/admin/screenshot-9.png "Screenshot Title Text 9")
 
